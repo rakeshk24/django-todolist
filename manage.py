@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+print("Starting Django management utility...")
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todoApp.settings')
     try:
